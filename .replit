@@ -1,2 +1,6 @@
 compile = "gcc tdas/*.c tarea3.c -Wno-unused-result -o tarea3"
 run = "./tarea3"
+modules = ["nix"]
+
+[nix]
+channel = "stable-25_05"
